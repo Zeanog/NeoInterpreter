@@ -1,0 +1,1 @@
+﻿F(int i){int f;f=i;}int x;x=4;F(x);

@@ -1,0 +1,12 @@
+Library
+Logs
+Temp
+ProjectSettings
+Packages
+obj
+.vs
+*.csproj
+*.sln
+*.pdb
+Bin
+*.csproj.user
