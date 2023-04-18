@@ -16,13 +16,12 @@ namespace Neo {
         protected void  AddTypeCompare( Type lhs, Type rhs, Action<CPU> handler ) {
             Dictionary<Type, Action<CPU>> map = null;
 
-            try {
+            if(!TypeCompareMap.ContainsKey()) {
+				map = new Dictionary<Type,Action<CPU>>();
+				TypeCompareMap.Add( lhs, map );
+			} else {
                 map = TypeCompareMap[lhs];
-            }
-            catch( KeyNotFoundException ) {
-                map = new Dictionary<Type,Action<CPU>>();
-                TypeCompareMap.Add( lhs, map );
-            }
+			}
 
             map[ rhs ] = handler;
         }
