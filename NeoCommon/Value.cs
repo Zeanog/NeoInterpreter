@@ -63,7 +63,7 @@ namespace Neo {
         }
 
         public override void Set( object val ) {
-            m_Value = Activator.CreateInstance( val.GetType() );
+            m_Value = val == null ? null : Activator.CreateInstance( val.GetType() );
         }
 
         public LiteralValue() {
@@ -104,7 +104,7 @@ namespace Neo {
 				return;
 			}
 			
-			ExceptionUtils.Throw<Exception>( ValueType == typeof(int) );
+			ExceptionUtils.Throw<Exception>( ValueType == typeof(T) );
 			m_Value = val;
 		}
 	
@@ -169,7 +169,7 @@ namespace Neo {
 		}
 		
 		public override void		Set<T>( T val, int index ) {
-			m_Value.Set<T>( val, index );
+			m_Value.Set( val, index );
 		}
 
         public override bool    IsValid {

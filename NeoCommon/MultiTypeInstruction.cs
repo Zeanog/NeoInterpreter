@@ -16,7 +16,7 @@ namespace Neo {
         protected void  AddTypeCompare( Type lhs, Type rhs, Action<CPU> handler ) {
             Dictionary<Type, Action<CPU>> map = null;
 
-            if(!TypeCompareMap.ContainsKey()) {
+            if(!TypeCompareMap.ContainsKey(lhs)) {
 				map = new Dictionary<Type,Action<CPU>>();
 				TypeCompareMap.Add( lhs, map );
 			} else {
