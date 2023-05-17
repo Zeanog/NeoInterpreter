@@ -57,10 +57,7 @@ parameters returns[int retNumParams]
 	;
 	
 param
-	:	^(PARAM TYPE_INT v=ID) { 
-				}
-	|	^(PARAM TYPE_FLOAT v=ID) {
-				}
+	:	^(PARAM ID ID) { }	
 	;
 	
 ////////////////////////////////////////////////
@@ -98,9 +95,7 @@ statement returns[int retNumDeclarations]
 	;
 	
 declaration
-	:	^(DECLARATION TYPE_INT v=ID) {
-				}
-	|	^(DECLARATION TYPE_FLOAT v=ID) {
+	:	^(DECLARATION ID v=ID) {
 				}
 	;
 	

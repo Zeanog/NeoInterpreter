@@ -3,4 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartWorkingDirectory>C:\Users\Home\Dropbox\NeoInterpreter\NeoCompiler\</StartWorkingDirectory>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <StartWorkingDirectory>C:\Users\Home\Dropbox\NeoInterpreter\NeoCompiler\</StartWorkingDirectory>
+  </PropertyGroup>
 </Project>

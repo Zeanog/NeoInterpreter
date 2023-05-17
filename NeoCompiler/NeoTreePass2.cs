@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-// $ANTLR 3.5 C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g 2014-06-18 14:16:25
+// $ANTLR 3.5 C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g 2023-05-16 20:33:31
 
 // The variable 'variable' is assigned but its value is never used.
 #pragma warning disable 219
@@ -87,7 +87,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	}
 
 	public override string[] TokenNames { get { return NeoTreePass2.tokenNames; } }
-	public override string GrammarFileName { get { return "C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g"; } }
+	public override string GrammarFileName { get { return "C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g"; } }
 
 
 	public void	Process() {
@@ -103,7 +103,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_file();
 	partial void LeaveRule_file();
 	// $ANTLR start "file"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:21:1: file : (| ^( FILE script ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:21:1: file : (| ^( FILE script ) );
 	[GrammarRule("file")]
 	private void file()
 	{
@@ -114,7 +114,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(21, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:21:6: (| ^( FILE script ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:21:6: (| ^( FILE script ) )
 			int alt1=2;
 			try { DebugEnterDecision(1, false);
 			int LA1_1 = input.LA(1);
@@ -138,13 +138,13 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:22:2: 
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:22:2: 
 				{
 				}
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:22:4: ^( FILE script )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:22:4: ^( FILE script )
 				{
 				DebugLocation(22, 4);
 				DebugLocation(22, 6);
@@ -186,7 +186,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_script();
 	partial void LeaveRule_script();
 	// $ANTLR start "script"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:1: script : ( ^( SCRIPT functionDefs ( program )? ) | ^( SCRIPT program ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:1: script : ( ^( SCRIPT functionDefs ( program )? ) | ^( SCRIPT program ) );
 	[GrammarRule("script")]
 	private void script()
 	{
@@ -197,7 +197,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(25, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:9: ( ^( SCRIPT functionDefs ( program )? ) | ^( SCRIPT program ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:9: ( ^( SCRIPT functionDefs ( program )? ) | ^( SCRIPT program ) )
 			int alt3=2;
 			try { DebugEnterDecision(3, false);
 			int LA3_1 = input.LA(1);
@@ -243,7 +243,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:11: ^( SCRIPT functionDefs ( program )? )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:11: ^( SCRIPT functionDefs ( program )? )
 				{
 				DebugLocation(25, 11);
 				DebugLocation(25, 13);
@@ -256,7 +256,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				PopFollow();
 
 				DebugLocation(25, 33);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:33: ( program )?
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:33: ( program )?
 				int alt2=2;
 				try { DebugEnterSubRule(2);
 				try { DebugEnterDecision(2, false);
@@ -271,7 +271,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:34: program
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:25:34: program
 					{
 					DebugLocation(25, 34);
 					PushFollow(Follow._program_in_script75);
@@ -295,7 +295,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:26:4: ^( SCRIPT program )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:26:4: ^( SCRIPT program )
 				{
 				DebugLocation(26, 4);
 				DebugLocation(26, 6);
@@ -339,7 +339,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_functionDefs();
 	partial void LeaveRule_functionDefs();
 	// $ANTLR start "functionDefs"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:29:1: functionDefs : ^( FUNCTION_DEFS ( functionDef )+ ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:29:1: functionDefs : ^( FUNCTION_DEFS ( functionDef )+ ) ;
 	[GrammarRule("functionDefs")]
 	private void functionDefs()
 	{
@@ -350,9 +350,9 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(29, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:2: ( ^( FUNCTION_DEFS ( functionDef )+ ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:2: ( ^( FUNCTION_DEFS ( functionDef )+ ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:4: ^( FUNCTION_DEFS ( functionDef )+ )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:4: ^( FUNCTION_DEFS ( functionDef )+ )
 			{
 			DebugLocation(30, 4);
 			DebugLocation(30, 6);
@@ -360,7 +360,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 
 			Match(input, TokenTypes.Down, null); 
 			DebugLocation(30, 20);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:20: ( functionDef )+
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:20: ( functionDef )+
 			int cnt4=0;
 			try { DebugEnterSubRule(4);
 			while (true)
@@ -380,7 +380,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:20: functionDef
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:30:20: functionDef
 					{
 					DebugLocation(30, 20);
 					PushFollow(Follow._functionDef_in_functionDefs106);
@@ -434,7 +434,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_functionDef();
 	partial void LeaveRule_functionDef();
 	// $ANTLR start "functionDef"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:33:1: functionDef : ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:33:1: functionDef : ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? ) ;
 	[GrammarRule("functionDef")]
 	private void functionDef()
 	{
@@ -451,9 +451,9 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(33, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:2: ( ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:2: ( ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:4: ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:4: ^( FUNCTION_DEF f= ID ( parameters[funcDef, memory] )? ( body[funcDef, memory] )? )
 			{
 			DebugLocation(41, 4);
 			DebugLocation(41, 6);
@@ -465,7 +465,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			DebugLocation(41, 24);
 			funcDef = ProgramDef.Instance.FunctionDefs[(f!=null?f.Text:default(string))];
 			DebugLocation(41, 79);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:79: ( parameters[funcDef, memory] )?
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:79: ( parameters[funcDef, memory] )?
 			int alt5=2;
 			try { DebugEnterSubRule(5);
 			try { DebugEnterDecision(5, false);
@@ -480,7 +480,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:80: parameters[funcDef, memory]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:80: parameters[funcDef, memory]
 				{
 				DebugLocation(41, 80);
 				PushFollow(Follow._parameters_in_functionDef140);
@@ -497,7 +497,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			DebugLocation(41, 110);
 			funcDef.PreBodyParse();
 			DebugLocation(41, 136);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:136: ( body[funcDef, memory] )?
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:136: ( body[funcDef, memory] )?
 			int alt6=2;
 			try { DebugEnterSubRule(6);
 			try { DebugEnterDecision(6, false);
@@ -512,7 +512,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:137: body[funcDef, memory]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:41:137: body[funcDef, memory]
 				{
 				DebugLocation(41, 137);
 				PushFollow(Follow._body_in_functionDef148);
@@ -557,7 +557,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_body();
 	partial void LeaveRule_body();
 	// $ANTLR start "body"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:44:1: body[FunctionDef funcDef, IMemoryDecorator memory] : ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:44:1: body[FunctionDef funcDef, IMemoryDecorator memory] : ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ ) ;
 	[GrammarRule("body")]
 	private void body(FunctionDef funcDef, IMemoryDecorator memory)
 	{
@@ -568,9 +568,9 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(44, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:2: ( ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:2: ( ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:4: ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:4: ^( FUNCTION_BODY ( statement[memory, funcDef.InstructionStream] )+ )
 			{
 			DebugLocation(45, 4);
 			DebugLocation(45, 6);
@@ -578,7 +578,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 
 			Match(input, TokenTypes.Down, null); 
 			DebugLocation(45, 20);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:20: ( statement[memory, funcDef.InstructionStream] )+
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:20: ( statement[memory, funcDef.InstructionStream] )+
 			int cnt7=0;
 			try { DebugEnterSubRule(7);
 			while (true)
@@ -598,7 +598,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:21: statement[memory, funcDef.InstructionStream]
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:45:21: statement[memory, funcDef.InstructionStream]
 					{
 					DebugLocation(45, 21);
 					PushFollow(Follow._statement_in_body169);
@@ -652,7 +652,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_parameters();
 	partial void LeaveRule_parameters();
 	// $ANTLR start "parameters"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:48:1: parameters[FunctionDef funcDef, IMemoryDecorator memory] : ^( PARAMS ( param[funcDef, memory] )+ ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:48:1: parameters[FunctionDef funcDef, IMemoryDecorator memory] : ^( PARAMS ( param[funcDef, memory] )+ ) ;
 	[GrammarRule("parameters")]
 	private void parameters(FunctionDef funcDef, IMemoryDecorator memory)
 	{
@@ -663,9 +663,9 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		DebugLocation(48, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:2: ( ^( PARAMS ( param[funcDef, memory] )+ ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:2: ( ^( PARAMS ( param[funcDef, memory] )+ ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:4: ^( PARAMS ( param[funcDef, memory] )+ )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:4: ^( PARAMS ( param[funcDef, memory] )+ )
 			{
 			DebugLocation(49, 4);
 			DebugLocation(49, 6);
@@ -673,7 +673,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 
 			Match(input, TokenTypes.Down, null); 
 			DebugLocation(49, 13);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:13: ( param[funcDef, memory] )+
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:13: ( param[funcDef, memory] )+
 			int cnt8=0;
 			try { DebugEnterSubRule(8);
 			while (true)
@@ -693,7 +693,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:14: param[funcDef, memory]
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:49:14: param[funcDef, memory]
 					{
 					DebugLocation(49, 14);
 					PushFollow(Follow._param_in_parameters191);
@@ -747,111 +747,43 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_param();
 	partial void LeaveRule_param();
 	// $ANTLR start "param"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:52:1: param[FunctionDef funcDef, IMemoryDecorator memory] : ( ^( PARAM TYPE_INT v= ID ) | ^( PARAM TYPE_FLOAT v= ID ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:52:1: param[FunctionDef funcDef, IMemoryDecorator memory] : ^( PARAM t= ID v= ID ) ;
 	[GrammarRule("param")]
 	private void param(FunctionDef funcDef, IMemoryDecorator memory)
 	{
 		EnterRule_param();
 		EnterRule("param", 7);
 		TraceIn("param", 7);
+		CommonTree t = default(CommonTree);
 		CommonTree v = default(CommonTree);
 
 		try { DebugEnterRule(GrammarFileName, "param");
 		DebugLocation(52, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:53:2: ( ^( PARAM TYPE_INT v= ID ) | ^( PARAM TYPE_FLOAT v= ID ) )
-			int alt9=2;
-			try { DebugEnterDecision(9, false);
-			int LA9_1 = input.LA(1);
-
-			if ((LA9_1==PARAM))
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:53:2: ( ^( PARAM t= ID v= ID ) )
+			DebugEnterAlt(1);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:53:4: ^( PARAM t= ID v= ID )
 			{
-				int LA9_2 = input.LA(2);
+			DebugLocation(53, 4);
+			DebugLocation(53, 6);
+			Match(input,PARAM,Follow._PARAM_in_param210); 
 
-				if ((LA9_2==DOWN))
-				{
-					int LA9_3 = input.LA(3);
+			Match(input, TokenTypes.Down, null); 
+			DebugLocation(53, 13);
+			t=(CommonTree)Match(input,ID,Follow._ID_in_param214); 
+			DebugLocation(53, 18);
+			v=(CommonTree)Match(input,ID,Follow._ID_in_param218); 
 
-					if ((LA9_3==TYPE_INT))
-					{
-						alt9 = 1;
-					}
-					else if ((LA9_3==TYPE_FLOAT))
-					{
-						alt9 = 2;
-					}
-					else
-					{
-						NoViableAltException nvae = new NoViableAltException("", 9, 2, input, 3);
-						DebugRecognitionException(nvae);
-						throw nvae;
-					}
-				}
-				else
-				{
-					NoViableAltException nvae = new NoViableAltException("", 9, 1, input, 2);
-					DebugRecognitionException(nvae);
-					throw nvae;
-				}
-			}
-			else
-			{
-				NoViableAltException nvae = new NoViableAltException("", 9, 0, input, 1);
-				DebugRecognitionException(nvae);
-				throw nvae;
-			}
-			} finally { DebugExitDecision(9); }
-			switch (alt9)
-			{
-			case 1:
-				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:53:4: ^( PARAM TYPE_INT v= ID )
-				{
-				DebugLocation(53, 4);
-				DebugLocation(53, 6);
-				Match(input,PARAM,Follow._PARAM_in_param210); 
+			Match(input, TokenTypes.Up, null); 
 
-				Match(input, TokenTypes.Down, null); 
-				DebugLocation(53, 12);
-				Match(input,TYPE_INT,Follow._TYPE_INT_in_param212); 
-				DebugLocation(53, 22);
-				v=(CommonTree)Match(input,ID,Follow._ID_in_param216); 
+			DebugLocation(53, 23);
 
-				Match(input, TokenTypes.Up, null); 
-
-				DebugLocation(53, 27);
-
-						memory.AllocateStorage( (v!=null?v.Text:default(string)), typeof(int), funcDef );
-					
-
-				}
-				break;
-			case 2:
-				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:56:4: ^( PARAM TYPE_FLOAT v= ID )
-				{
-				DebugLocation(56, 4);
-				DebugLocation(56, 6);
-				Match(input,PARAM,Follow._PARAM_in_param225); 
-
-				Match(input, TokenTypes.Down, null); 
-				DebugLocation(56, 12);
-				Match(input,TYPE_FLOAT,Follow._TYPE_FLOAT_in_param227); 
-				DebugLocation(56, 24);
-				v=(CommonTree)Match(input,ID,Follow._ID_in_param231); 
-
-				Match(input, TokenTypes.Up, null); 
-
-				DebugLocation(56, 29);
-
-						memory.AllocateStorage( (v!=null?v.Text:default(string)), typeof(float), funcDef );
-					
-
-				}
-				break;
+					memory.AllocateStorage( (v!=null?v.Text:default(string)), (t!=null?t.Text:default(string)), funcDef );
+				
 
 			}
+
 		}
 		catch (RecognitionException re)
 		{
@@ -864,7 +796,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("param", 7);
 			LeaveRule_param();
 		}
-		DebugLocation(59, 1);
+		DebugLocation(56, 1);
 		} finally { DebugExitRule(GrammarFileName, "param"); }
 		return;
 
@@ -874,7 +806,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_functionCall();
 	partial void LeaveRule_functionCall();
 	// $ANTLR start "functionCall"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:63:1: functionCall[List<Instruction> instructionStream] : ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:60:1: functionCall[List<Instruction> instructionStream] : ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? ) ;
 	[GrammarRule("functionCall")]
 	private void functionCall(List<Instruction> instructionStream)
 	{
@@ -887,45 +819,45 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			FunctionDef funcDef;
 
 		try { DebugEnterRule(GrammarFileName, "functionCall");
-		DebugLocation(63, 1);
+		DebugLocation(60, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:67:2: ( ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:64:2: ( ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:67:4: ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:64:4: ^( FUNCTION_CALL f= ID ( arguments[instructionStream] )? )
 			{
-			DebugLocation(67, 4);
-			DebugLocation(67, 6);
-			Match(input,FUNCTION_CALL,Follow._FUNCTION_CALL_in_functionCall256); 
+			DebugLocation(64, 4);
+			DebugLocation(64, 6);
+			Match(input,FUNCTION_CALL,Follow._FUNCTION_CALL_in_functionCall243); 
 
 			Match(input, TokenTypes.Down, null); 
-			DebugLocation(67, 21);
-			f=(CommonTree)Match(input,ID,Follow._ID_in_functionCall260); 
-			DebugLocation(67, 25);
+			DebugLocation(64, 21);
+			f=(CommonTree)Match(input,ID,Follow._ID_in_functionCall247); 
+			DebugLocation(64, 25);
 
 							funcDef = ProgramDef.Instance.FunctionDefs[(f!=null?f.Text:default(string))];
 							instructionStream.Add( new PushFrameInstruction(new LiteralValue(funcDef.StackFrameSize)) );
 						
-			DebugLocation(70, 6);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:70:6: ( arguments[instructionStream] )?
-			int alt10=2;
-			try { DebugEnterSubRule(10);
-			try { DebugEnterDecision(10, false);
-			int LA10_1 = input.LA(1);
+			DebugLocation(67, 6);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:67:6: ( arguments[instructionStream] )?
+			int alt9=2;
+			try { DebugEnterSubRule(9);
+			try { DebugEnterDecision(9, false);
+			int LA9_1 = input.LA(1);
 
-			if ((LA10_1==FUNCTION_ARGUMENTS))
+			if ((LA9_1==FUNCTION_ARGUMENTS))
 			{
-				alt10 = 1;
+				alt9 = 1;
 			}
-			} finally { DebugExitDecision(10); }
-			switch (alt10)
+			} finally { DebugExitDecision(9); }
+			switch (alt9)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:70:6: arguments[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:67:6: arguments[instructionStream]
 				{
-				DebugLocation(70, 6);
-				PushFollow(Follow._arguments_in_functionCall264);
+				DebugLocation(67, 6);
+				PushFollow(Follow._arguments_in_functionCall251);
 				arguments(instructionStream);
 				PopFollow();
 
@@ -934,12 +866,12 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 
 			}
-			} finally { DebugExitSubRule(10); }
+			} finally { DebugExitSubRule(9); }
 
 
 			Match(input, TokenTypes.Up, null); 
 
-			DebugLocation(70, 37);
+			DebugLocation(67, 37);
 
 						Value retAddr = new LiteralValue(instructionStream.Count + 2);
 						instructionStream.Add( new PushInstruction(retAddr) );
@@ -961,7 +893,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("functionCall", 8);
 			LeaveRule_functionCall();
 		}
-		DebugLocation(76, 1);
+		DebugLocation(73, 1);
 		} finally { DebugExitRule(GrammarFileName, "functionCall"); }
 		return;
 
@@ -971,7 +903,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_arguments();
 	partial void LeaveRule_arguments();
 	// $ANTLR start "arguments"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:78:1: arguments[List<Instruction> instructionStream] : ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:75:1: arguments[List<Instruction> instructionStream] : ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ ) ;
 	[GrammarRule("arguments")]
 	private void arguments(List<Instruction> instructionStream)
 	{
@@ -979,20 +911,177 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		EnterRule("arguments", 9);
 		TraceIn("arguments", 9);
 		try { DebugEnterRule(GrammarFileName, "arguments");
-		DebugLocation(78, 1);
+		DebugLocation(75, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:79:2: ( ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:76:2: ( ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:79:4: ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:76:4: ^( FUNCTION_ARGUMENTS ( argument[instructionStream] )+ )
 			{
-			DebugLocation(79, 4);
-			DebugLocation(79, 6);
-			Match(input,FUNCTION_ARGUMENTS,Follow._FUNCTION_ARGUMENTS_in_arguments284); 
+			DebugLocation(76, 4);
+			DebugLocation(76, 6);
+			Match(input,FUNCTION_ARGUMENTS,Follow._FUNCTION_ARGUMENTS_in_arguments271); 
 
 			Match(input, TokenTypes.Down, null); 
-			DebugLocation(79, 25);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:79:25: ( argument[instructionStream] )+
+			DebugLocation(76, 25);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:76:25: ( argument[instructionStream] )+
+			int cnt10=0;
+			try { DebugEnterSubRule(10);
+			while (true)
+			{
+				int alt10=2;
+				try { DebugEnterDecision(10, false);
+				int LA10_1 = input.LA(1);
+
+				if ((LA10_1==FUNCTION_ARGUMENT))
+				{
+					alt10 = 1;
+				}
+
+
+				} finally { DebugExitDecision(10); }
+				switch (alt10)
+				{
+				case 1:
+					DebugEnterAlt(1);
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:76:26: argument[instructionStream]
+					{
+					DebugLocation(76, 26);
+					PushFollow(Follow._argument_in_arguments274);
+					argument(instructionStream);
+					PopFollow();
+
+
+					}
+					break;
+
+				default:
+					if (cnt10 >= 1)
+						goto loop10;
+
+					EarlyExitException eee10 = new EarlyExitException( 10, input );
+					DebugRecognitionException(eee10);
+					throw eee10;
+				}
+				cnt10++;
+			}
+			loop10:
+				;
+
+			} finally { DebugExitSubRule(10); }
+
+
+			Match(input, TokenTypes.Up, null); 
+
+
+			}
+
+		}
+		catch (RecognitionException re)
+		{
+			ReportError(re);
+			Recover(input,re);
+		}
+		finally
+		{
+			TraceOut("arguments", 9);
+			LeaveRule("arguments", 9);
+			LeaveRule_arguments();
+		}
+		DebugLocation(77, 1);
+		} finally { DebugExitRule(GrammarFileName, "arguments"); }
+		return;
+
+	}
+	// $ANTLR end "arguments"
+
+	partial void EnterRule_argument();
+	partial void LeaveRule_argument();
+	// $ANTLR start "argument"
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:79:1: argument[List<Instruction> instructionStream] : ^( FUNCTION_ARGUMENT v= value[instructionStream] ) ;
+	[GrammarRule("argument")]
+	private void argument(List<Instruction> instructionStream)
+	{
+		EnterRule_argument();
+		EnterRule("argument", 10);
+		TraceIn("argument", 10);
+		Value v = default(Value);
+
+		try { DebugEnterRule(GrammarFileName, "argument");
+		DebugLocation(79, 1);
+		try
+		{
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:80:2: ( ^( FUNCTION_ARGUMENT v= value[instructionStream] ) )
+			DebugEnterAlt(1);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:80:4: ^( FUNCTION_ARGUMENT v= value[instructionStream] )
+			{
+			DebugLocation(80, 4);
+			DebugLocation(80, 6);
+			Match(input,FUNCTION_ARGUMENT,Follow._FUNCTION_ARGUMENT_in_argument293); 
+
+			Match(input, TokenTypes.Down, null); 
+			DebugLocation(80, 25);
+			PushFollow(Follow._value_in_argument297);
+			v=value(instructionStream);
+			PopFollow();
+
+
+			Match(input, TokenTypes.Up, null); 
+
+			DebugLocation(80, 52);
+
+					instructionStream.Add( new PushInstruction(v) );
+				
+
+			}
+
+		}
+		catch (RecognitionException re)
+		{
+			ReportError(re);
+			Recover(input,re);
+		}
+		finally
+		{
+			TraceOut("argument", 10);
+			LeaveRule("argument", 10);
+			LeaveRule_argument();
+		}
+		DebugLocation(83, 1);
+		} finally { DebugExitRule(GrammarFileName, "argument"); }
+		return;
+
+	}
+	// $ANTLR end "argument"
+
+	partial void EnterRule_program();
+	partial void LeaveRule_program();
+	// $ANTLR start "program"
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:87:1: program : ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ ) ;
+	[GrammarRule("program")]
+	private void program()
+	{
+		EnterRule_program();
+		EnterRule("program", 11);
+		TraceIn("program", 11);
+
+			IMemoryDecorator memory = new MemoryDecorator_HeapInterface();
+
+		try { DebugEnterRule(GrammarFileName, "program");
+		DebugLocation(87, 1);
+		try
+		{
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:91:2: ( ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ ) )
+			DebugEnterAlt(1);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:91:4: ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ )
+			{
+			DebugLocation(91, 4);
+			DebugLocation(91, 6);
+			Match(input,PROGRAM,Follow._PROGRAM_in_program320); 
+
+			Match(input, TokenTypes.Down, null); 
+			DebugLocation(91, 14);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:91:14: ( statement[memory, CPU.Instance.InstructionStream] )+
 			int cnt11=0;
 			try { DebugEnterSubRule(11);
 			while (true)
@@ -1001,7 +1090,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				try { DebugEnterDecision(11, false);
 				int LA11_1 = input.LA(1);
 
-				if ((LA11_1==FUNCTION_ARGUMENT))
+				if ((LA11_1==ASSIGNMENT||LA11_1==DECLARATION||LA11_1==FUNCTION_CALL))
 				{
 					alt11 = 1;
 				}
@@ -1012,11 +1101,11 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				{
 				case 1:
 					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:79:26: argument[instructionStream]
+					// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:91:15: statement[memory, CPU.Instance.InstructionStream]
 					{
-					DebugLocation(79, 26);
-					PushFollow(Follow._argument_in_arguments287);
-					argument(instructionStream);
+					DebugLocation(91, 15);
+					PushFollow(Follow._statement_in_program323);
+					statement(memory, CPU.Instance.InstructionStream);
 					PopFollow();
 
 
@@ -1041,164 +1130,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 
 			Match(input, TokenTypes.Up, null); 
 
-
-			}
-
-		}
-		catch (RecognitionException re)
-		{
-			ReportError(re);
-			Recover(input,re);
-		}
-		finally
-		{
-			TraceOut("arguments", 9);
-			LeaveRule("arguments", 9);
-			LeaveRule_arguments();
-		}
-		DebugLocation(80, 1);
-		} finally { DebugExitRule(GrammarFileName, "arguments"); }
-		return;
-
-	}
-	// $ANTLR end "arguments"
-
-	partial void EnterRule_argument();
-	partial void LeaveRule_argument();
-	// $ANTLR start "argument"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:82:1: argument[List<Instruction> instructionStream] : ^( FUNCTION_ARGUMENT v= value[instructionStream] ) ;
-	[GrammarRule("argument")]
-	private void argument(List<Instruction> instructionStream)
-	{
-		EnterRule_argument();
-		EnterRule("argument", 10);
-		TraceIn("argument", 10);
-		Value v = default(Value);
-
-		try { DebugEnterRule(GrammarFileName, "argument");
-		DebugLocation(82, 1);
-		try
-		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:83:2: ( ^( FUNCTION_ARGUMENT v= value[instructionStream] ) )
-			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:83:4: ^( FUNCTION_ARGUMENT v= value[instructionStream] )
-			{
-			DebugLocation(83, 4);
-			DebugLocation(83, 6);
-			Match(input,FUNCTION_ARGUMENT,Follow._FUNCTION_ARGUMENT_in_argument306); 
-
-			Match(input, TokenTypes.Down, null); 
-			DebugLocation(83, 25);
-			PushFollow(Follow._value_in_argument310);
-			v=value(instructionStream);
-			PopFollow();
-
-
-			Match(input, TokenTypes.Up, null); 
-
-			DebugLocation(83, 52);
-
-					instructionStream.Add( new PushInstruction(v) );
-				
-
-			}
-
-		}
-		catch (RecognitionException re)
-		{
-			ReportError(re);
-			Recover(input,re);
-		}
-		finally
-		{
-			TraceOut("argument", 10);
-			LeaveRule("argument", 10);
-			LeaveRule_argument();
-		}
-		DebugLocation(86, 1);
-		} finally { DebugExitRule(GrammarFileName, "argument"); }
-		return;
-
-	}
-	// $ANTLR end "argument"
-
-	partial void EnterRule_program();
-	partial void LeaveRule_program();
-	// $ANTLR start "program"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:90:1: program : ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ ) ;
-	[GrammarRule("program")]
-	private void program()
-	{
-		EnterRule_program();
-		EnterRule("program", 11);
-		TraceIn("program", 11);
-
-			IMemoryDecorator memory = new MemoryDecorator_HeapInterface();
-
-		try { DebugEnterRule(GrammarFileName, "program");
-		DebugLocation(90, 1);
-		try
-		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:94:2: ( ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ ) )
-			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:94:4: ^( PROGRAM ( statement[memory, CPU.Instance.InstructionStream] )+ )
-			{
-			DebugLocation(94, 4);
-			DebugLocation(94, 6);
-			Match(input,PROGRAM,Follow._PROGRAM_in_program333); 
-
-			Match(input, TokenTypes.Down, null); 
-			DebugLocation(94, 14);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:94:14: ( statement[memory, CPU.Instance.InstructionStream] )+
-			int cnt12=0;
-			try { DebugEnterSubRule(12);
-			while (true)
-			{
-				int alt12=2;
-				try { DebugEnterDecision(12, false);
-				int LA12_1 = input.LA(1);
-
-				if ((LA12_1==ASSIGNMENT||LA12_1==DECLARATION||LA12_1==FUNCTION_CALL))
-				{
-					alt12 = 1;
-				}
-
-
-				} finally { DebugExitDecision(12); }
-				switch (alt12)
-				{
-				case 1:
-					DebugEnterAlt(1);
-					// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:94:15: statement[memory, CPU.Instance.InstructionStream]
-					{
-					DebugLocation(94, 15);
-					PushFollow(Follow._statement_in_program336);
-					statement(memory, CPU.Instance.InstructionStream);
-					PopFollow();
-
-
-					}
-					break;
-
-				default:
-					if (cnt12 >= 1)
-						goto loop12;
-
-					EarlyExitException eee12 = new EarlyExitException( 12, input );
-					DebugRecognitionException(eee12);
-					throw eee12;
-				}
-				cnt12++;
-			}
-			loop12:
-				;
-
-			} finally { DebugExitSubRule(12); }
-
-
-			Match(input, TokenTypes.Up, null); 
-
-			DebugLocation(94, 68);
+			DebugLocation(91, 68);
 
 					CPU.Instance.InstructionStream.Add( new EndofProgramInstruction() );
 				
@@ -1217,7 +1149,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("program", 11);
 			LeaveRule_program();
 		}
-		DebugLocation(97, 1);
+		DebugLocation(94, 1);
 		} finally { DebugExitRule(GrammarFileName, "program"); }
 		return;
 
@@ -1227,7 +1159,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_statement();
 	partial void LeaveRule_statement();
 	// $ANTLR start "statement"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:99:1: statement[IMemoryDecorator memory, List<Instruction> instructionStream] : ( declaration[memory] | assignment[instructionStream] | functionCall[instructionStream] );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:96:1: statement[IMemoryDecorator memory, List<Instruction> instructionStream] : ( declaration[memory] | assignment[instructionStream] | functionCall[instructionStream] );
 	[GrammarRule("statement")]
 	private void statement(IMemoryDecorator memory, List<Instruction> instructionStream)
 	{
@@ -1235,46 +1167,46 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		EnterRule("statement", 12);
 		TraceIn("statement", 12);
 		try { DebugEnterRule(GrammarFileName, "statement");
-		DebugLocation(99, 1);
+		DebugLocation(96, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:100:2: ( declaration[memory] | assignment[instructionStream] | functionCall[instructionStream] )
-			int alt13=3;
-			try { DebugEnterDecision(13, false);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:97:2: ( declaration[memory] | assignment[instructionStream] | functionCall[instructionStream] )
+			int alt12=3;
+			try { DebugEnterDecision(12, false);
 			switch (input.LA(1))
 			{
 			case DECLARATION:
 				{
-				alt13 = 1;
+				alt12 = 1;
 				}
 				break;
 			case ASSIGNMENT:
 				{
-				alt13 = 2;
+				alt12 = 2;
 				}
 				break;
 			case FUNCTION_CALL:
 				{
-				alt13 = 3;
+				alt12 = 3;
 				}
 				break;
 			default:
 				{
-					NoViableAltException nvae = new NoViableAltException("", 13, 0, input, 1);
+					NoViableAltException nvae = new NoViableAltException("", 12, 0, input, 1);
 					DebugRecognitionException(nvae);
 					throw nvae;
 				}
 			}
 
-			} finally { DebugExitDecision(13); }
-			switch (alt13)
+			} finally { DebugExitDecision(12); }
+			switch (alt12)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:100:4: declaration[memory]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:97:4: declaration[memory]
 				{
-				DebugLocation(100, 4);
-				PushFollow(Follow._declaration_in_statement356);
+				DebugLocation(97, 4);
+				PushFollow(Follow._declaration_in_statement343);
 				declaration(memory);
 				PopFollow();
 
@@ -1283,10 +1215,10 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:101:4: assignment[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:98:4: assignment[instructionStream]
 				{
-				DebugLocation(101, 4);
-				PushFollow(Follow._assignment_in_statement362);
+				DebugLocation(98, 4);
+				PushFollow(Follow._assignment_in_statement349);
 				assignment(instructionStream);
 				PopFollow();
 
@@ -1295,10 +1227,10 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 3:
 				DebugEnterAlt(3);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:102:4: functionCall[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:99:4: functionCall[instructionStream]
 				{
-				DebugLocation(102, 4);
-				PushFollow(Follow._functionCall_in_statement368);
+				DebugLocation(99, 4);
+				PushFollow(Follow._functionCall_in_statement355);
 				functionCall(instructionStream);
 				PopFollow();
 
@@ -1319,7 +1251,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("statement", 12);
 			LeaveRule_statement();
 		}
-		DebugLocation(103, 1);
+		DebugLocation(100, 1);
 		} finally { DebugExitRule(GrammarFileName, "statement"); }
 		return;
 
@@ -1329,111 +1261,43 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_declaration();
 	partial void LeaveRule_declaration();
 	// $ANTLR start "declaration"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:105:1: declaration[IMemoryDecorator memory] : ( ^( DECLARATION TYPE_INT v= ID ) | ^( DECLARATION TYPE_FLOAT v= ID ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:102:1: declaration[IMemoryDecorator memory] : ^( DECLARATION t= ID v= ID ) ;
 	[GrammarRule("declaration")]
 	private void declaration(IMemoryDecorator memory)
 	{
 		EnterRule_declaration();
 		EnterRule("declaration", 13);
 		TraceIn("declaration", 13);
+		CommonTree t = default(CommonTree);
 		CommonTree v = default(CommonTree);
 
 		try { DebugEnterRule(GrammarFileName, "declaration");
-		DebugLocation(105, 1);
+		DebugLocation(102, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:106:2: ( ^( DECLARATION TYPE_INT v= ID ) | ^( DECLARATION TYPE_FLOAT v= ID ) )
-			int alt14=2;
-			try { DebugEnterDecision(14, false);
-			int LA14_1 = input.LA(1);
-
-			if ((LA14_1==DECLARATION))
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:103:2: ( ^( DECLARATION t= ID v= ID ) )
+			DebugEnterAlt(1);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:103:4: ^( DECLARATION t= ID v= ID )
 			{
-				int LA14_2 = input.LA(2);
+			DebugLocation(103, 4);
+			DebugLocation(103, 6);
+			Match(input,DECLARATION,Follow._DECLARATION_in_declaration370); 
 
-				if ((LA14_2==DOWN))
-				{
-					int LA14_3 = input.LA(3);
+			Match(input, TokenTypes.Down, null); 
+			DebugLocation(103, 19);
+			t=(CommonTree)Match(input,ID,Follow._ID_in_declaration374); 
+			DebugLocation(103, 24);
+			v=(CommonTree)Match(input,ID,Follow._ID_in_declaration378); 
 
-					if ((LA14_3==TYPE_INT))
-					{
-						alt14 = 1;
-					}
-					else if ((LA14_3==TYPE_FLOAT))
-					{
-						alt14 = 2;
-					}
-					else
-					{
-						NoViableAltException nvae = new NoViableAltException("", 14, 2, input, 3);
-						DebugRecognitionException(nvae);
-						throw nvae;
-					}
-				}
-				else
-				{
-					NoViableAltException nvae = new NoViableAltException("", 14, 1, input, 2);
-					DebugRecognitionException(nvae);
-					throw nvae;
-				}
-			}
-			else
-			{
-				NoViableAltException nvae = new NoViableAltException("", 14, 0, input, 1);
-				DebugRecognitionException(nvae);
-				throw nvae;
-			}
-			} finally { DebugExitDecision(14); }
-			switch (alt14)
-			{
-			case 1:
-				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:106:4: ^( DECLARATION TYPE_INT v= ID )
-				{
-				DebugLocation(106, 4);
-				DebugLocation(106, 6);
-				Match(input,DECLARATION,Follow._DECLARATION_in_declaration383); 
+			Match(input, TokenTypes.Up, null); 
 
-				Match(input, TokenTypes.Down, null); 
-				DebugLocation(106, 18);
-				Match(input,TYPE_INT,Follow._TYPE_INT_in_declaration385); 
-				DebugLocation(106, 28);
-				v=(CommonTree)Match(input,ID,Follow._ID_in_declaration389); 
+			DebugLocation(103, 29);
 
-				Match(input, TokenTypes.Up, null); 
-
-				DebugLocation(106, 33);
-
-						memory.AllocateStorage( (v!=null?v.Text:default(string)), typeof(int) );
-					
-
-				}
-				break;
-			case 2:
-				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:109:4: ^( DECLARATION TYPE_FLOAT v= ID )
-				{
-				DebugLocation(109, 4);
-				DebugLocation(109, 6);
-				Match(input,DECLARATION,Follow._DECLARATION_in_declaration398); 
-
-				Match(input, TokenTypes.Down, null); 
-				DebugLocation(109, 18);
-				Match(input,TYPE_FLOAT,Follow._TYPE_FLOAT_in_declaration400); 
-				DebugLocation(109, 30);
-				v=(CommonTree)Match(input,ID,Follow._ID_in_declaration404); 
-
-				Match(input, TokenTypes.Up, null); 
-
-				DebugLocation(109, 35);
-
-						memory.AllocateStorage( (v!=null?v.Text:default(string)), typeof(float) );
-					
-
-				}
-				break;
+					memory.AllocateStorage( (v!=null?v.Text:default(string)), (t!=null?t.Text:default(string)) );
+				
 
 			}
+
 		}
 		catch (RecognitionException re)
 		{
@@ -1446,7 +1310,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("declaration", 13);
 			LeaveRule_declaration();
 		}
-		DebugLocation(112, 1);
+		DebugLocation(106, 1);
 		} finally { DebugExitRule(GrammarFileName, "declaration"); }
 		return;
 
@@ -1456,7 +1320,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_assignment();
 	partial void LeaveRule_assignment();
 	// $ANTLR start "assignment"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:114:1: assignment[List<Instruction> instructionStream] : ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] ) ;
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:108:1: assignment[List<Instruction> instructionStream] : ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] ) ;
 	[GrammarRule("assignment")]
 	private void assignment(List<Instruction> instructionStream)
 	{
@@ -1467,29 +1331,29 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		Value exp = default(Value);
 
 		try { DebugEnterRule(GrammarFileName, "assignment");
-		DebugLocation(114, 1);
+		DebugLocation(108, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:115:2: ( ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] ) )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:109:2: ( ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] ) )
 			DebugEnterAlt(1);
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:115:4: ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] )
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:109:4: ^( ASSIGNMENT v= ID exp= addSubExp[instructionStream] )
 			{
-			DebugLocation(115, 4);
-			DebugLocation(115, 6);
-			Match(input,ASSIGNMENT,Follow._ASSIGNMENT_in_assignment422); 
+			DebugLocation(109, 4);
+			DebugLocation(109, 6);
+			Match(input,ASSIGNMENT,Follow._ASSIGNMENT_in_assignment396); 
 
 			Match(input, TokenTypes.Down, null); 
-			DebugLocation(115, 18);
-			v=(CommonTree)Match(input,ID,Follow._ID_in_assignment426); 
-			DebugLocation(115, 25);
-			PushFollow(Follow._addSubExp_in_assignment430);
+			DebugLocation(109, 18);
+			v=(CommonTree)Match(input,ID,Follow._ID_in_assignment400); 
+			DebugLocation(109, 25);
+			PushFollow(Follow._addSubExp_in_assignment404);
 			exp=addSubExp(instructionStream);
 			PopFollow();
 
 
 			Match(input, TokenTypes.Up, null); 
 
-			DebugLocation(115, 56);
+			DebugLocation(109, 56);
 
 					Value var = ProgramDef.Instance.SymbolTable[(v!=null?v.Text:default(string))];
 					instructionStream.Add( new CopyInstruction(var, exp) );
@@ -1509,7 +1373,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("assignment", 14);
 			LeaveRule_assignment();
 		}
-		DebugLocation(119, 1);
+		DebugLocation(113, 1);
 		} finally { DebugExitRule(GrammarFileName, "assignment"); }
 		return;
 
@@ -1519,7 +1383,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_addSubExp();
 	partial void LeaveRule_addSubExp();
 	// $ANTLR start "addSubExp"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:121:1: addSubExp[List<Instruction> instructionStream] returns [Value ret] : (exp= mulDivExp[instructionStream] | ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) | ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:115:1: addSubExp[List<Instruction> instructionStream] returns [Value ret] : (exp= mulDivExp[instructionStream] | ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) | ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) );
 	[GrammarRule("addSubExp")]
 	private Value addSubExp(List<Instruction> instructionStream)
 	{
@@ -1534,12 +1398,12 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		Value rhs = default(Value);
 
 		try { DebugEnterRule(GrammarFileName, "addSubExp");
-		DebugLocation(121, 3);
+		DebugLocation(115, 3);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:122:2: (exp= mulDivExp[instructionStream] | ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) | ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) )
-			int alt15=3;
-			try { DebugEnterDecision(15, false);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:116:2: (exp= mulDivExp[instructionStream] | ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) | ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] ) )
+			int alt13=3;
+			try { DebugEnterDecision(13, false);
 			switch (input.LA(1))
 			{
 			case LITERAL:
@@ -1549,40 +1413,40 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			case 30:
 			case 34:
 				{
-				alt15 = 1;
+				alt13 = 1;
 				}
 				break;
 			case 31:
 				{
-				alt15 = 2;
+				alt13 = 2;
 				}
 				break;
 			case 33:
 				{
-				alt15 = 3;
+				alt13 = 3;
 				}
 				break;
 			default:
 				{
-					NoViableAltException nvae = new NoViableAltException("", 15, 0, input, 1);
+					NoViableAltException nvae = new NoViableAltException("", 13, 0, input, 1);
 					DebugRecognitionException(nvae);
 					throw nvae;
 				}
 			}
 
-			} finally { DebugExitDecision(15); }
-			switch (alt15)
+			} finally { DebugExitDecision(13); }
+			switch (alt13)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:122:5: exp= mulDivExp[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:116:5: exp= mulDivExp[instructionStream]
 				{
-				DebugLocation(122, 8);
-				PushFollow(Follow._mulDivExp_in_addSubExp454);
+				DebugLocation(116, 8);
+				PushFollow(Follow._mulDivExp_in_addSubExp428);
 				exp=mulDivExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(122, 38);
+				DebugLocation(116, 38);
 
 						ret = exp;
 					
@@ -1591,27 +1455,27 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:125:7: ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:119:7: ^( '+' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] )
 				{
-				DebugLocation(125, 7);
-				DebugLocation(125, 9);
-				Match(input,31,Follow._31_in_addSubExp466); 
+				DebugLocation(119, 7);
+				DebugLocation(119, 9);
+				Match(input,31,Follow._31_in_addSubExp440); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(125, 16);
-				PushFollow(Follow._mulDivExp_in_addSubExp470);
+				DebugLocation(119, 16);
+				PushFollow(Follow._mulDivExp_in_addSubExp444);
 				lhs=mulDivExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(125, 49);
-				PushFollow(Follow._mulDivExp_in_addSubExp475);
+				DebugLocation(119, 49);
+				PushFollow(Follow._mulDivExp_in_addSubExp449);
 				rhs=mulDivExp(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(125, 80);
+				DebugLocation(119, 80);
 
 				  		instructionStream.Add( new AddInstruction(lhs, rhs, ret) );
 				  	
@@ -1620,27 +1484,27 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 3:
 				DebugEnterAlt(3);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:128:7: ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:122:7: ^( '-' lhs= mulDivExp[instructionStream] rhs= mulDivExp[instructionStream] )
 				{
-				DebugLocation(128, 7);
-				DebugLocation(128, 9);
-				Match(input,33,Follow._33_in_addSubExp488); 
+				DebugLocation(122, 7);
+				DebugLocation(122, 9);
+				Match(input,33,Follow._33_in_addSubExp462); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(128, 16);
-				PushFollow(Follow._mulDivExp_in_addSubExp492);
+				DebugLocation(122, 16);
+				PushFollow(Follow._mulDivExp_in_addSubExp466);
 				lhs=mulDivExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(128, 49);
-				PushFollow(Follow._mulDivExp_in_addSubExp497);
+				DebugLocation(122, 49);
+				PushFollow(Follow._mulDivExp_in_addSubExp471);
 				rhs=mulDivExp(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(128, 80);
+				DebugLocation(122, 80);
 
 				  		instructionStream.Add( new SubtractInstruction(lhs, rhs, ret) );
 				  	
@@ -1661,7 +1525,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("addSubExp", 15);
 			LeaveRule_addSubExp();
 		}
-		DebugLocation(131, 3);
+		DebugLocation(125, 3);
 		} finally { DebugExitRule(GrammarFileName, "addSubExp"); }
 		return ret;
 
@@ -1671,7 +1535,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_mulDivExp();
 	partial void LeaveRule_mulDivExp();
 	// $ANTLR start "mulDivExp"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:133:1: mulDivExp[List<Instruction> instructionStream] returns [Value ret] : (val= unaryExp[instructionStream] | ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) | ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:127:1: mulDivExp[List<Instruction> instructionStream] returns [Value ret] : (val= unaryExp[instructionStream] | ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) | ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) );
 	[GrammarRule("mulDivExp")]
 	private Value mulDivExp(List<Instruction> instructionStream)
 	{
@@ -1686,12 +1550,12 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		Value rhs = default(Value);
 
 		try { DebugEnterRule(GrammarFileName, "mulDivExp");
-		DebugLocation(133, 3);
+		DebugLocation(127, 3);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:134:2: (val= unaryExp[instructionStream] | ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) | ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) )
-			int alt16=3;
-			try { DebugEnterDecision(16, false);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:128:2: (val= unaryExp[instructionStream] | ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) | ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] ) )
+			int alt14=3;
+			try { DebugEnterDecision(14, false);
 			switch (input.LA(1))
 			{
 			case LITERAL:
@@ -1699,40 +1563,40 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			case UNARY:
 			case VARIABLE:
 				{
-				alt16 = 1;
+				alt14 = 1;
 				}
 				break;
 			case 30:
 				{
-				alt16 = 2;
+				alt14 = 2;
 				}
 				break;
 			case 34:
 				{
-				alt16 = 3;
+				alt14 = 3;
 				}
 				break;
 			default:
 				{
-					NoViableAltException nvae = new NoViableAltException("", 16, 0, input, 1);
+					NoViableAltException nvae = new NoViableAltException("", 14, 0, input, 1);
 					DebugRecognitionException(nvae);
 					throw nvae;
 				}
 			}
 
-			} finally { DebugExitDecision(16); }
-			switch (alt16)
+			} finally { DebugExitDecision(14); }
+			switch (alt14)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:134:5: val= unaryExp[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:128:5: val= unaryExp[instructionStream]
 				{
-				DebugLocation(134, 8);
-				PushFollow(Follow._unaryExp_in_mulDivExp522);
+				DebugLocation(128, 8);
+				PushFollow(Follow._unaryExp_in_mulDivExp496);
 				val=unaryExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(134, 37);
+				DebugLocation(128, 37);
 
 						ret = val;
 					
@@ -1741,27 +1605,27 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:137:7: ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:131:7: ^( '*' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] )
 				{
-				DebugLocation(137, 7);
-				DebugLocation(137, 9);
-				Match(input,30,Follow._30_in_mulDivExp534); 
+				DebugLocation(131, 7);
+				DebugLocation(131, 9);
+				Match(input,30,Follow._30_in_mulDivExp508); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(137, 16);
-				PushFollow(Follow._unaryExp_in_mulDivExp538);
+				DebugLocation(131, 16);
+				PushFollow(Follow._unaryExp_in_mulDivExp512);
 				lhs=unaryExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(137, 48);
-				PushFollow(Follow._unaryExp_in_mulDivExp543);
+				DebugLocation(131, 48);
+				PushFollow(Follow._unaryExp_in_mulDivExp517);
 				rhs=unaryExp(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(137, 78);
+				DebugLocation(131, 78);
 
 				  		instructionStream.Add( new MultiplyInstruction(lhs, rhs, ret) );
 				  	
@@ -1770,27 +1634,27 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 3:
 				DebugEnterAlt(3);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:140:6: ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:134:6: ^( '/' lhs= unaryExp[instructionStream] rhs= unaryExp[instructionStream] )
 				{
-				DebugLocation(140, 6);
-				DebugLocation(140, 8);
-				Match(input,34,Follow._34_in_mulDivExp555); 
+				DebugLocation(134, 6);
+				DebugLocation(134, 8);
+				Match(input,34,Follow._34_in_mulDivExp529); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(140, 15);
-				PushFollow(Follow._unaryExp_in_mulDivExp559);
+				DebugLocation(134, 15);
+				PushFollow(Follow._unaryExp_in_mulDivExp533);
 				lhs=unaryExp(instructionStream);
 				PopFollow();
 
-				DebugLocation(140, 47);
-				PushFollow(Follow._unaryExp_in_mulDivExp564);
+				DebugLocation(134, 47);
+				PushFollow(Follow._unaryExp_in_mulDivExp538);
 				rhs=unaryExp(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(140, 77);
+				DebugLocation(134, 77);
 
 				 		instructionStream.Add( new DivideInstruction(lhs, rhs, ret) );
 				 	
@@ -1811,7 +1675,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("mulDivExp", 16);
 			LeaveRule_mulDivExp();
 		}
-		DebugLocation(143, 3);
+		DebugLocation(137, 3);
 		} finally { DebugExitRule(GrammarFileName, "mulDivExp"); }
 		return ret;
 
@@ -1821,7 +1685,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_unaryExp();
 	partial void LeaveRule_unaryExp();
 	// $ANTLR start "unaryExp"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:145:1: unaryExp[List<Instruction> instructionStream] returns [Value ret] : ( ^( UNARY v= value[instructionStream] ) |v= value[instructionStream] );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:139:1: unaryExp[List<Instruction> instructionStream] returns [Value ret] : ( ^( UNARY v= value[instructionStream] ) |v= value[instructionStream] );
 	[GrammarRule("unaryExp")]
 	private Value unaryExp(List<Instruction> instructionStream)
 	{
@@ -1834,49 +1698,49 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		Value v = default(Value);
 
 		try { DebugEnterRule(GrammarFileName, "unaryExp");
-		DebugLocation(145, 3);
+		DebugLocation(139, 3);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:146:4: ( ^( UNARY v= value[instructionStream] ) |v= value[instructionStream] )
-			int alt17=2;
-			try { DebugEnterDecision(17, false);
-			int LA17_1 = input.LA(1);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:140:4: ( ^( UNARY v= value[instructionStream] ) |v= value[instructionStream] )
+			int alt15=2;
+			try { DebugEnterDecision(15, false);
+			int LA15_1 = input.LA(1);
 
-			if ((LA17_1==UNARY))
+			if ((LA15_1==UNARY))
 			{
-				alt17 = 1;
+				alt15 = 1;
 			}
-			else if ((LA17_1==LITERAL||LA17_1==PARENEXP||LA17_1==VARIABLE))
+			else if ((LA15_1==LITERAL||LA15_1==PARENEXP||LA15_1==VARIABLE))
 			{
-				alt17 = 2;
+				alt15 = 2;
 			}
 			else
 			{
-				NoViableAltException nvae = new NoViableAltException("", 17, 0, input, 1);
+				NoViableAltException nvae = new NoViableAltException("", 15, 0, input, 1);
 				DebugRecognitionException(nvae);
 				throw nvae;
 			}
-			} finally { DebugExitDecision(17); }
-			switch (alt17)
+			} finally { DebugExitDecision(15); }
+			switch (alt15)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:146:7: ^( UNARY v= value[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:140:7: ^( UNARY v= value[instructionStream] )
 				{
-				DebugLocation(146, 7);
-				DebugLocation(146, 9);
-				Match(input,UNARY,Follow._UNARY_in_unaryExp591); 
+				DebugLocation(140, 7);
+				DebugLocation(140, 9);
+				Match(input,UNARY,Follow._UNARY_in_unaryExp565); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(146, 16);
-				PushFollow(Follow._value_in_unaryExp595);
+				DebugLocation(140, 16);
+				PushFollow(Follow._value_in_unaryExp569);
 				v=value(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(146, 43);
+				DebugLocation(140, 43);
 
 				  		if( v.ValueType == typeof(int) ) {
 					  		instructionStream.Add( new SubtractInstruction(Value.IntZero, v, ret) );
@@ -1891,14 +1755,14 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:155:5: v= value[instructionStream]
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:149:5: v= value[instructionStream]
 				{
-				DebugLocation(155, 6);
-				PushFollow(Follow._value_in_unaryExp607);
+				DebugLocation(149, 6);
+				PushFollow(Follow._value_in_unaryExp581);
 				v=value(instructionStream);
 				PopFollow();
 
-				DebugLocation(155, 32);
+				DebugLocation(149, 32);
 
 						ret = v;
 					
@@ -1919,7 +1783,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("unaryExp", 17);
 			LeaveRule_unaryExp();
 		}
-		DebugLocation(158, 3);
+		DebugLocation(152, 3);
 		} finally { DebugExitRule(GrammarFileName, "unaryExp"); }
 		return ret;
 
@@ -1929,7 +1793,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 	partial void EnterRule_value();
 	partial void LeaveRule_value();
 	// $ANTLR start "value"
-	// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:160:1: value[List<Instruction> instructionStream] returns [Value ret] : ( ^( VARIABLE v= ID ) | ^( LITERAL TYPE_INT i= INT ) | ^( LITERAL TYPE_FLOAT f= FLOAT ) | ^( PARENEXP e= addSubExp[instructionStream] ) );
+	// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:154:1: value[List<Instruction> instructionStream] returns [Value ret] : ( ^( VARIABLE v= ID ) | ^( LITERAL TYPE_INT i= INT ) | ^( LITERAL TYPE_FLOAT f= FLOAT ) | ^( PARENEXP e= addSubExp[instructionStream] ) );
 	[GrammarRule("value")]
 	private Value value(List<Instruction> instructionStream)
 	{
@@ -1945,45 +1809,45 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		Value e = default(Value);
 
 		try { DebugEnterRule(GrammarFileName, "value");
-		DebugLocation(160, 1);
+		DebugLocation(154, 1);
 		try
 		{
-			// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:161:2: ( ^( VARIABLE v= ID ) | ^( LITERAL TYPE_INT i= INT ) | ^( LITERAL TYPE_FLOAT f= FLOAT ) | ^( PARENEXP e= addSubExp[instructionStream] ) )
-			int alt18=4;
-			try { DebugEnterDecision(18, false);
+			// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:155:2: ( ^( VARIABLE v= ID ) | ^( LITERAL TYPE_INT i= INT ) | ^( LITERAL TYPE_FLOAT f= FLOAT ) | ^( PARENEXP e= addSubExp[instructionStream] ) )
+			int alt16=4;
+			try { DebugEnterDecision(16, false);
 			switch (input.LA(1))
 			{
 			case VARIABLE:
 				{
-				alt18 = 1;
+				alt16 = 1;
 				}
 				break;
 			case LITERAL:
 				{
-				int LA18_2 = input.LA(2);
+				int LA16_2 = input.LA(2);
 
-				if ((LA18_2==DOWN))
+				if ((LA16_2==DOWN))
 				{
-					int LA18_3 = input.LA(3);
+					int LA16_3 = input.LA(3);
 
-					if ((LA18_3==TYPE_INT))
+					if ((LA16_3==TYPE_INT))
 					{
-						alt18 = 2;
+						alt16 = 2;
 					}
-					else if ((LA18_3==TYPE_FLOAT))
+					else if ((LA16_3==TYPE_FLOAT))
 					{
-						alt18 = 3;
+						alt16 = 3;
 					}
 					else
 					{
-						NoViableAltException nvae = new NoViableAltException("", 18, 4, input, 3);
+						NoViableAltException nvae = new NoViableAltException("", 16, 4, input, 3);
 						DebugRecognitionException(nvae);
 						throw nvae;
 					}
 				}
 				else
 				{
-					NoViableAltException nvae = new NoViableAltException("", 18, 2, input, 2);
+					NoViableAltException nvae = new NoViableAltException("", 16, 2, input, 2);
 					DebugRecognitionException(nvae);
 					throw nvae;
 				}
@@ -1991,35 +1855,35 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case PARENEXP:
 				{
-				alt18 = 4;
+				alt16 = 4;
 				}
 				break;
 			default:
 				{
-					NoViableAltException nvae = new NoViableAltException("", 18, 0, input, 1);
+					NoViableAltException nvae = new NoViableAltException("", 16, 0, input, 1);
 					DebugRecognitionException(nvae);
 					throw nvae;
 				}
 			}
 
-			} finally { DebugExitDecision(18); }
-			switch (alt18)
+			} finally { DebugExitDecision(16); }
+			switch (alt16)
 			{
 			case 1:
 				DebugEnterAlt(1);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:161:4: ^( VARIABLE v= ID )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:155:4: ^( VARIABLE v= ID )
 				{
-				DebugLocation(161, 4);
-				DebugLocation(161, 6);
-				Match(input,VARIABLE,Follow._VARIABLE_in_value632); 
+				DebugLocation(155, 4);
+				DebugLocation(155, 6);
+				Match(input,VARIABLE,Follow._VARIABLE_in_value606); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(161, 16);
-				v=(CommonTree)Match(input,ID,Follow._ID_in_value636); 
+				DebugLocation(155, 16);
+				v=(CommonTree)Match(input,ID,Follow._ID_in_value610); 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(161, 21);
+				DebugLocation(155, 21);
 
 						try {
 							ret = ProgramDef.Instance.SymbolTable[(v!=null?v.Text:default(string))];
@@ -2032,21 +1896,21 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 2:
 				DebugEnterAlt(2);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:168:4: ^( LITERAL TYPE_INT i= INT )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:162:4: ^( LITERAL TYPE_INT i= INT )
 				{
-				DebugLocation(168, 4);
-				DebugLocation(168, 6);
-				Match(input,LITERAL,Follow._LITERAL_in_value645); 
+				DebugLocation(162, 4);
+				DebugLocation(162, 6);
+				Match(input,LITERAL,Follow._LITERAL_in_value619); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(168, 14);
-				Match(input,TYPE_INT,Follow._TYPE_INT_in_value647); 
-				DebugLocation(168, 24);
-				i=(CommonTree)Match(input,INT,Follow._INT_in_value651); 
+				DebugLocation(162, 14);
+				Match(input,TYPE_INT,Follow._TYPE_INT_in_value621); 
+				DebugLocation(162, 24);
+				i=(CommonTree)Match(input,INT,Follow._INT_in_value625); 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(168, 30);
+				DebugLocation(162, 30);
 
 						ret = new LiteralValue(int.Parse((i!=null?i.Text:default(string))));
 						
@@ -2056,21 +1920,21 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 3:
 				DebugEnterAlt(3);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:172:4: ^( LITERAL TYPE_FLOAT f= FLOAT )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:166:4: ^( LITERAL TYPE_FLOAT f= FLOAT )
 				{
-				DebugLocation(172, 4);
-				DebugLocation(172, 6);
-				Match(input,LITERAL,Follow._LITERAL_in_value660); 
+				DebugLocation(166, 4);
+				DebugLocation(166, 6);
+				Match(input,LITERAL,Follow._LITERAL_in_value634); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(172, 14);
-				Match(input,TYPE_FLOAT,Follow._TYPE_FLOAT_in_value662); 
-				DebugLocation(172, 26);
-				f=(CommonTree)Match(input,FLOAT,Follow._FLOAT_in_value666); 
+				DebugLocation(166, 14);
+				Match(input,TYPE_FLOAT,Follow._TYPE_FLOAT_in_value636); 
+				DebugLocation(166, 26);
+				f=(CommonTree)Match(input,FLOAT,Follow._FLOAT_in_value640); 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(172, 34);
+				DebugLocation(166, 34);
 				 
 						ret = new LiteralValue(float.Parse((f!=null?f.Text:default(string))));
 					
@@ -2079,22 +1943,22 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 				break;
 			case 4:
 				DebugEnterAlt(4);
-				// C:\\Users\\zeano_000\\Dropbox\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:175:4: ^( PARENEXP e= addSubExp[instructionStream] )
+				// C:\\Repos\\NeoInterpreter\\NeoCompiler\\NeoTreePass2.g:169:4: ^( PARENEXP e= addSubExp[instructionStream] )
 				{
-				DebugLocation(175, 4);
-				DebugLocation(175, 6);
-				Match(input,PARENEXP,Follow._PARENEXP_in_value675); 
+				DebugLocation(169, 4);
+				DebugLocation(169, 6);
+				Match(input,PARENEXP,Follow._PARENEXP_in_value649); 
 
 				Match(input, TokenTypes.Down, null); 
-				DebugLocation(175, 16);
-				PushFollow(Follow._addSubExp_in_value679);
+				DebugLocation(169, 16);
+				PushFollow(Follow._addSubExp_in_value653);
 				e=addSubExp(instructionStream);
 				PopFollow();
 
 
 				Match(input, TokenTypes.Up, null); 
 
-				DebugLocation(175, 47);
+				DebugLocation(169, 47);
 
 						ret = e;
 					
@@ -2115,7 +1979,7 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 			LeaveRule("value", 18);
 			LeaveRule_value();
 		}
-		DebugLocation(178, 1);
+		DebugLocation(172, 1);
 		} finally { DebugExitRule(GrammarFileName, "value"); }
 		return ret;
 
@@ -2145,59 +2009,53 @@ public partial class NeoTreePass2 : Antlr.Runtime.Tree.TreeParser
 		public static readonly BitSet _PARAMS_in_parameters188 = new BitSet(new ulong[]{0x0000000000000004UL});
 		public static readonly BitSet _param_in_parameters191 = new BitSet(new ulong[]{0x0000000000040008UL});
 		public static readonly BitSet _PARAM_in_param210 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_INT_in_param212 = new BitSet(new ulong[]{0x0000000000008000UL});
-		public static readonly BitSet _ID_in_param216 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _PARAM_in_param225 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_FLOAT_in_param227 = new BitSet(new ulong[]{0x0000000000008000UL});
-		public static readonly BitSet _ID_in_param231 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _FUNCTION_CALL_in_functionCall256 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _ID_in_functionCall260 = new BitSet(new ulong[]{0x0000000000000408UL});
-		public static readonly BitSet _arguments_in_functionCall264 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _FUNCTION_ARGUMENTS_in_arguments284 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _argument_in_arguments287 = new BitSet(new ulong[]{0x0000000000000208UL});
-		public static readonly BitSet _FUNCTION_ARGUMENT_in_argument306 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _value_in_argument310 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _PROGRAM_in_program333 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _statement_in_program336 = new BitSet(new ulong[]{0x0000000000001058UL});
-		public static readonly BitSet _declaration_in_statement356 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _assignment_in_statement362 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _functionCall_in_statement368 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _DECLARATION_in_declaration383 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_INT_in_declaration385 = new BitSet(new ulong[]{0x0000000000008000UL});
-		public static readonly BitSet _ID_in_declaration389 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _DECLARATION_in_declaration398 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_FLOAT_in_declaration400 = new BitSet(new ulong[]{0x0000000000008000UL});
-		public static readonly BitSet _ID_in_declaration404 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _ASSIGNMENT_in_assignment422 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _ID_in_assignment426 = new BitSet(new ulong[]{0x00000006C6120000UL});
-		public static readonly BitSet _addSubExp_in_assignment430 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _mulDivExp_in_addSubExp454 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _31_in_addSubExp466 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _mulDivExp_in_addSubExp470 = new BitSet(new ulong[]{0x0000000446120000UL});
-		public static readonly BitSet _mulDivExp_in_addSubExp475 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _33_in_addSubExp488 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _mulDivExp_in_addSubExp492 = new BitSet(new ulong[]{0x0000000446120000UL});
-		public static readonly BitSet _mulDivExp_in_addSubExp497 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _unaryExp_in_mulDivExp522 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _30_in_mulDivExp534 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _unaryExp_in_mulDivExp538 = new BitSet(new ulong[]{0x0000000006120000UL});
-		public static readonly BitSet _unaryExp_in_mulDivExp543 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _34_in_mulDivExp555 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _unaryExp_in_mulDivExp559 = new BitSet(new ulong[]{0x0000000006120000UL});
-		public static readonly BitSet _unaryExp_in_mulDivExp564 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _UNARY_in_unaryExp591 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _value_in_unaryExp595 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _value_in_unaryExp607 = new BitSet(new ulong[]{0x0000000000000002UL});
-		public static readonly BitSet _VARIABLE_in_value632 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _ID_in_value636 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _LITERAL_in_value645 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_INT_in_value647 = new BitSet(new ulong[]{0x0000010000000000UL});
-		public static readonly BitSet _INT_in_value651 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _LITERAL_in_value660 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _TYPE_FLOAT_in_value662 = new BitSet(new ulong[]{0x0000008000000000UL});
-		public static readonly BitSet _FLOAT_in_value666 = new BitSet(new ulong[]{0x0000000000000008UL});
-		public static readonly BitSet _PARENEXP_in_value675 = new BitSet(new ulong[]{0x0000000000000004UL});
-		public static readonly BitSet _addSubExp_in_value679 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _ID_in_param214 = new BitSet(new ulong[]{0x0000000000008000UL});
+		public static readonly BitSet _ID_in_param218 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _FUNCTION_CALL_in_functionCall243 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _ID_in_functionCall247 = new BitSet(new ulong[]{0x0000000000000408UL});
+		public static readonly BitSet _arguments_in_functionCall251 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _FUNCTION_ARGUMENTS_in_arguments271 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _argument_in_arguments274 = new BitSet(new ulong[]{0x0000000000000208UL});
+		public static readonly BitSet _FUNCTION_ARGUMENT_in_argument293 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _value_in_argument297 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _PROGRAM_in_program320 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _statement_in_program323 = new BitSet(new ulong[]{0x0000000000001058UL});
+		public static readonly BitSet _declaration_in_statement343 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _assignment_in_statement349 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _functionCall_in_statement355 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _DECLARATION_in_declaration370 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _ID_in_declaration374 = new BitSet(new ulong[]{0x0000000000008000UL});
+		public static readonly BitSet _ID_in_declaration378 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _ASSIGNMENT_in_assignment396 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _ID_in_assignment400 = new BitSet(new ulong[]{0x00000006C6120000UL});
+		public static readonly BitSet _addSubExp_in_assignment404 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _mulDivExp_in_addSubExp428 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _31_in_addSubExp440 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _mulDivExp_in_addSubExp444 = new BitSet(new ulong[]{0x0000000446120000UL});
+		public static readonly BitSet _mulDivExp_in_addSubExp449 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _33_in_addSubExp462 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _mulDivExp_in_addSubExp466 = new BitSet(new ulong[]{0x0000000446120000UL});
+		public static readonly BitSet _mulDivExp_in_addSubExp471 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _unaryExp_in_mulDivExp496 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _30_in_mulDivExp508 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _unaryExp_in_mulDivExp512 = new BitSet(new ulong[]{0x0000000006120000UL});
+		public static readonly BitSet _unaryExp_in_mulDivExp517 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _34_in_mulDivExp529 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _unaryExp_in_mulDivExp533 = new BitSet(new ulong[]{0x0000000006120000UL});
+		public static readonly BitSet _unaryExp_in_mulDivExp538 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _UNARY_in_unaryExp565 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _value_in_unaryExp569 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _value_in_unaryExp581 = new BitSet(new ulong[]{0x0000000000000002UL});
+		public static readonly BitSet _VARIABLE_in_value606 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _ID_in_value610 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _LITERAL_in_value619 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _TYPE_INT_in_value621 = new BitSet(new ulong[]{0x0000010000000000UL});
+		public static readonly BitSet _INT_in_value625 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _LITERAL_in_value634 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _TYPE_FLOAT_in_value636 = new BitSet(new ulong[]{0x0000008000000000UL});
+		public static readonly BitSet _FLOAT_in_value640 = new BitSet(new ulong[]{0x0000000000000008UL});
+		public static readonly BitSet _PARENEXP_in_value649 = new BitSet(new ulong[]{0x0000000000000004UL});
+		public static readonly BitSet _addSubExp_in_value653 = new BitSet(new ulong[]{0x0000000000000008UL});
 	}
 	#endregion Follow sets
 }

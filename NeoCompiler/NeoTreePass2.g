@@ -50,11 +50,8 @@ parameters [FunctionDef funcDef, IMemoryDecorator memory]
 	;
 	
 param [FunctionDef funcDef, IMemoryDecorator memory]
-	:	^(PARAM TYPE_INT v=ID) {
-		memory.AllocateStorage( $v.text, typeof(int), funcDef );
-	}
-	|	^(PARAM TYPE_FLOAT v=ID) {
-		memory.AllocateStorage( $v.text, typeof(float), funcDef );
+	:	^(PARAM t=ID v=ID) {
+		memory.AllocateStorage( $v.text, $t.text, funcDef );
 	}
 	;
 	
@@ -103,11 +100,8 @@ statement [IMemoryDecorator memory, List<Instruction> instructionStream]
 	;
 
 declaration [IMemoryDecorator memory]
-	:	^(DECLARATION TYPE_INT v=ID) {
-		memory.AllocateStorage( $v.text, typeof(int) );
-	}
-	|	^(DECLARATION TYPE_FLOAT v=ID) {
-		memory.AllocateStorage( $v.text, typeof(float) );
+	:	^(DECLARATION t=ID v=ID) {
+		memory.AllocateStorage( $v.text, $t.text );
 	}
 	;
 	

@@ -56,7 +56,7 @@ body	:	(statement)+ -> ^(FUNCTION_BODY statement+)
 parameters	:	param (',' param)* -> ^(PARAMS param+)
 	;
 	
-param	:	(ID ID) -> ^(PARAM ID ID)
+param	:	(t=ID n=ID) -> ^(PARAM $t $n)
 	;
 	
 ////////////////////////////////////////////////

@@ -5,11 +5,34 @@ using System.Runtime.Serialization;
 namespace Neo {
     public abstract class IMemoryDecorator
     {
+        protected static Dictionary<string, Type> m_TypeMap = new Dictionary<string, Type>();
+        static IMemoryDecorator()
+        {
+            m_TypeMap.Add("int", typeof(int));
+            m_TypeMap.Add("float", typeof(float));
+        }
+
         // YUK - I hate having parms that only some children use.  BAD BAD BAD!!!
         public abstract Value AllocateStorage(string name, Type type, FunctionDef funcDef);
         public virtual Value AllocateStorage(string name, Type type)
         {
             return AllocateStorage(name, type, null);
+        }
+
+        public virtual Value AllocateStorage(string name, string typeName, FunctionDef funcDef)
+        {
+            try
+            {
+                return AllocateStorage(name, m_TypeMap[typeName], funcDef);
+            }
+            catch(Exception ex)
+            {
+                return null;
+            }
+        }
+        public virtual Value AllocateStorage(string name, string typeName)
+        {
+            return AllocateStorage(name, typeName, null);
         }
     }
 
